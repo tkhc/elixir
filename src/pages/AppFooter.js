@@ -21,7 +21,7 @@ export const AppFooter = () => {
 
   return(
     <Container maxWidth="lg" className={classes.root}>
-      <p>React based project using <a href="https://www.thecocktaildb.com" target="_blank" rel="noopener noreferrer" className={classes.a}>TheCocktialDB</a> API. <br/>Created by Terrence Chan 2021. View repository on <a href="https://github.com/tkhc/elixir" target="_blank" rel="noopener noreferrer" className={classes.a}>GitHub</a>.</p>
+      <p>React based project using <a href="https://www.thecocktaildb.com" target="_blank" rel="noopener noreferrer" className={classes.a}>The CocktailDB</a> API. <br/>Created by Terrence Chan 2021. Check out the repository on <a href="https://github.com/tkhc/elixir" target="_blank" rel="noopener noreferrer" className={classes.a}>GitHub</a>.</p>
     </Container>
   );
 }
