@@ -5,7 +5,7 @@ export default function About() {
     <section className="section about-section">
       <h1 className="section-title">about</h1>
       <p>
-        You can find any cocktails and mocktails here by typing any ingredients in the search box. Drink responsibly.</p>
+        You can find any cocktails and mocktails here by typing an ingredients or keyword in the search box. Drink responsibly. Cheers!</p>
     </section>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useGlobalContext } from '../context'
+
 export default function SearchForm() {
   const { setSearchTerm } = useGlobalContext()
   const searchValue = React.useRef('')
@@ -18,7 +19,7 @@ export default function SearchForm() {
     <section className='section search'>
       <form className='search-form' onSubmit={handleSubmit}>
         <div className='form-control'>
-          <label htmlFor='name'>search your favorite cocktail</label>
+          <label htmlFor='name'> Search for a drink</label>
           <input
             type='text'
             name='name'
